@@ -511,3 +511,8 @@ body {
 .social-quick a:hover {
     color: var(--neon-green);
 }
+
+.favicon-preview {
+    border-radius: 12px; /* انحنای ملایم و مدرن مشابه آیکون */
+    overflow: hidden;
+}
