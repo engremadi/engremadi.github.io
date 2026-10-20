@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Emadi Nazari // Principal Backend & Automation Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal-shell">
+        <!-- Window Title Bar -->
+        <header class="shell-header">
+            <div class="window-controls">
+                <span class="control red"></span>
+                <span class="control yellow"></span>
+                <span class="control green"></span>
+            </div>
+            <div class="shell-title">Ali Emadi Nazari · Backend & Automation Developer</div>
+            <div class="live-indicator">
+                <span class="pulse-dot"></span> STATUS: 200 OK
+            </div>
+        </header>
+
+        <!-- Main Dashboard Grid -->
+        <div class="dashboard-grid">
+            <!-- Left Sidebar Profile -->
+            <aside class="identity-card">
+                <div class="avatar-wrapper">
+                    <img src="IMG_20260402_175602.png" alt="Ali Emadi Nazari">
+                    <div class="status-ring"></div>
+                </div>
+                
+                <h1>Ali Emadi Nazari</h1>
+                <p class="role-badge">&lt;Backend & Automation Specialist /&gt;</p>
+
+                <div class="spec-list">
+                    <div class="spec-item"><i class="fa-solid fa-location-dot"></i> Qom, Iran (Remote/Hybrid)</div>
+                    <div class="spec-item"><i class="fa-solid fa-graduation-cap"></i> Univ. of Tehran (Farabi)</div>
+                    <div class="spec-item"><i class="fa-solid fa-server"></i> Ex-Lead Dev @ SamanDarou</div>
+                </div>
+
+                <div class="cta-actions">
+                    <a href="mailto:emadali1329@gmail.com" class="btn-terminal primary"><i class="fa-solid fa-terminal"></i> Initialize Contact</a>
+                    <a href="https://github.com/engremadi" target="_blank" class="btn-terminal secondary"><i class="fa-brands fa-github"></i> GitHub Repos</a>
+                </div>
+            </aside>
+
+            <!-- Right Dynamic Content Area -->
+            <main class="workspace">
+                <!-- Navigation Tabs -->
+                <nav class="workspace-tabs">
+                    <button class="tab-btn active" onclick="switchTab('overview', event)"><i class="fa-solid fa-fingerprint"></i> Overview</button>
+                    <button class="tab-btn" onclick="switchTab('skills', event)"><i class="fa-solid fa-microchip"></i> Stack</button>
+                    <button class="tab-btn" onclick="switchTab('projects', event)"><i class="fa-solid fa-code-branch"></i> Systems & Projects</button>
+                    <button class="tab-btn" onclick="switchTab('experience', event)"><i class="fa-solid fa-briefcase"></i> Experience</button>
+                </nav>
+
+                <!-- Tab 1: Overview -->
+                <section id="overview" class="tab-content active">
+                    <div class="panel-box">
+                        <h3><i class="fa-solid fa-terminal"></i> ./execute_bio.py</h3>
+                        
+                        <p class="highlight-text">
+                            Backend Developer and Automation Engineer focused on building Python-based APIs, web data collection tools, and workflow automation.
+                        </p>
+                        <p>
+                            Experienced in developing FastAPI applications, messaging bots, web crawlers, and WordPress/WooCommerce integrations. At SamanDarou, contributed to pharmacy e-commerce operations through website development, technical SEO improvements, and prescription-processing automation, including integration with a Bixolon thermal printer. Interested in building reliable, maintainable software that reduces repetitive work and supports day-to-day business operations.
+                        </p>
+
+
+                        <div class="quick-stats">
+                            <div class="stat-card">
+                                <span class="stat-num">3+</span>
+                                <span class="stat-lbl">Years Backend Focus</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-num">10+</span>
+                                <span class="stat-lbl">Production Projects</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-num">1st</span>
+                                <span class="stat-lbl">Syncoders Algorithmic Rank</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Tab 2: Skills -->
+                <section id="skills" class="tab-content">
+                    <div class="panel-box">
+                        <h3><i class="fa-solid fa-network-wired"></i> system_architecture_stack.json</h3>
+                        <div class="skill-categories">
+                            <div class="skill-group">
+                                <h4>Core & Backend</h4>
+                                <div class="tags">
+                                    <span>Python (OOP / Asyncio)</span>
+                                    <span>FastAPI</span>
+                                    <span>RESTful APIs</span>
+                                    <span>PHP (Basic)</span>
+                                    <span>Regex & Parsing</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Automation & Scraping</h4>
+                                <div class="tags">
+                                    <span>Scrapy</span>
+                                    <span>Selenium WebDriver</span>
+                                    <span>Requests / Webhooks</span>
+                                    <span>Telegram & Bale Bots</span>
+                                    <span>PyInstaller (Standalone EXE)</span>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h4>Databases & Infrastructure</h4>
+                                <div class="tags">
+                                    <span>MySQL</span>
+                                    <span>MongoDB</span>
+                                    <span>Git & GitHub</span>
+                                    <span>WordPress / WooCommerce</span>
+                                    <span>cPanel & Linux Crons</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Tab 3: Projects -->
+                <section id="projects" class="tab-content">
+                    <div class="panel-box">
+                        <h3><i class="fa-solid fa-folder-tree"></i> deployed_repositories/</h3>
+                        <div class="project-grid">
+                            <div class="proj-card">
+                                <div class="proj-top">
+                                    <h4>Prescription Bot</h4>
+                                    <span class="badge">Bale API</span>
+                                </div>
+                                <p>Automated pharmacy prescription processing bot integrated with Bixolon thermal printer drivers via PyInstaller packaging.</p>
+                            </div>
+                            <div class="proj-card">
+                                <div class="proj-top">
+                                    <h4>FastAPI NoteBook</h4>
+                                    <a href="https://github.com/engremadi/FastAPI-NoteBook" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                                <p>High-performance REST API backend built with FastAPI and asynchronous database design patterns.</p>
+                                <span class="repo-link">github.com/engremadi/FastAPI-NoteBook</span>
+                            </div>
+                            <div class="proj-card">
+                                <div class="proj-top">
+                                    <h4>Crypto Price Alert</h4>
+                                    <a href="https://github.com/engremadi/BitCoinPriceAlert" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                                <p>Real-time volatility tracking utility dispatching instant webhook notifications to Telegram channels.</p>
+                                <span class="repo-link">github.com/engremadi/BitCoinPriceAlert</span>
+                            </div>
+                            <div class="proj-card">
+                                <div class="proj-top">
+                                    <h4>NewsCrawler Pipeline</h4>
+                                    <a href="https://github.com/engremadi/NewsCrawler" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                                <p>Scalable web crawler built with Scrapy framework to extract and structure multi-source news data.</p>
+                                <span class="repo-link">github.com/engremadi/NewsCrawler</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Tab 4: Experience -->
+                <section id="experience" class="tab-content">
+                    <div class="panel-box">
+                        <h3><i class="fa-solid fa-timeline"></i> career_logs.log</h3>
+                        <div class="timeline-log">
+                            <div class="log-item">
+                                <div class="log-header">
+                                    <h4>Technical Manager & Site Developer</h4>
+                                    <span class="log-date">2024 – Apr 2026</span>
+                                </div>
+                                <span class="log-company">SamanDarou (Dr. Saremi Pharmacy) — Tehran</span>
+                                <p>Directed technical infrastructure and oversaw a 3-member team (content, SEO, fulfillment). Resolved critical technical SEO bottlenecks and developed custom PHP/WordPress synchronization modules.</p>
+                            </div>
+                            <div class="log-item">
+                                <div class="log-header">
+                                    <h4>Automation & Crawler Engineer</h4>
+                                    <span class="log-date">2024 – 2025</span>
+                                </div>
+                                <span class="log-company">Independent & Contract Projects</span>
+                                <p>Architected high-speed Instagram comment extractors and data scrapers utilizing Scrapy, Selenium, and advanced Regex pattern matching.</p>
+                            </div>
+                            <div class="log-item">
+                                <div class="log-header">
+                                    <h4>B.Sc. in Computer Engineering</h4>
+                                    <span class="log-date">2023 – Present</span>
+                                </div>
+                                <span class="log-company">University of Tehran (Farabi Campus)</span>
+                                <p>First Place Winner in Syncoders Algorithmic Competition (2023). Focused on core software design, algorithms, and backend systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- Footer -->
+        <footer class="shell-footer">
+            <span>// Ali Emadi Nazari - Senior Backend Portfolio</span>
+            <div class="social-quick">
+                <a href="https://github.com/engremadi" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://t.me/Ali_Emadi_Nazari" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="mailto:emadali1329@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <span>SECURE CONNECTION</span>
+        </footer>
+    </div>
+
+    <!-- Tab Switching Script -->
+    <script>
+        function switchTab(tabId, event) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+    </script>
+</body>
+</html>
